@@ -9,5 +9,8 @@ setuptools.setup(
     author="author_name",
     description="project_description",
     url="https://github.com/MattClarke873/PythonPackage/",
-    project_urls=""
+    project_urls={
+    "Bug Tracker": "https://github.com/MattClarke873/PythonPackage/issues"
+    },
+    packages=['PythonTools']
 )
