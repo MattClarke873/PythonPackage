@@ -1,7 +1,7 @@
 import setuptools
 
 with open("/README.md" , "r" , encoding="utf-8") as f:
-        more_description = f.read()
+    more_description = f.read()
 
 setuptools.setup(
     name="PythonTools",
@@ -13,5 +13,4 @@ setuptools.setup(
     "Bug Tracker": "https://github.com/MattClarke873/PythonPackage/issues"
     },
     packages=['PythonTools']
-
 )
